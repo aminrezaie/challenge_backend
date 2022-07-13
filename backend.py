@@ -36,7 +36,7 @@ def get_all():
 @app.route('/health')
 @cross_origin(supports_credentials=True)
 def health_check():
-    return 'Im OK, Thanks';
+    return 'Im OK, Thanks!';
 
 
 if __name__ == '__main__':
